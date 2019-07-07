@@ -31,9 +31,6 @@ bot.on('message', msg => {
     if (msg.content === prefix + "partenaires"){
         msg.reply("voici les partenaires d'**__Element Hall__** : **Factrio** : https://discord.gg/GhPm74m")
     }
-    if (user.login){
-        msg.channel("départs-et-arrivées").send("Bienvenue @" + user + "sur **Element Hall ~ Alpha** !")
-    }
 });
 
 bot.login(token);
