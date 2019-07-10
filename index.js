@@ -14,7 +14,7 @@ bot.on('message', msg => {
         msg.channel.send("Voici l'adresse IP du serveur Minecraft d'Element Hall : **elementhall.craft.gg**")
     }
     if (msg.content === prefix + "help"){
-        msg.reply("voici ce que je peux faire: **/help** : voir cet liste | **/ip** : avoir l'adresse IP du serveur Minecraft de Element Hall | **/site** : avoir le lien du site de Element Hall | **/link** : avoir le lien du serveur Discord de Element Hall | **/invite** : avoir le lien pour m'inviter sur un serveur | **/partenaires** : voir les partenaires de __Element Hall__")
+        msg.reply("voici ce que je peux faire: **/help** : voir cet liste | **/ip** : avoir l'adresse IP du serveur Minecraft d'Element Hall | **/site** : avoir le lien du site d'Element Hall | **/boutique** : avoir le lien de la boutique d'Element Hall | **/link** : avoir le lien du serveur Discord d'Element Hall | **/invite** : avoir le lien pour m'inviter sur un serveur | **/partenaires** : voir les partenaires d'__Element Hall__")
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("Voici le site d'Element Hall : **https://elementhall.000webhostapp.com/**")
@@ -29,7 +29,11 @@ bot.on('message', msg => {
         msg.reply("tu veux m'inviter ? Pas de problème, voici le lien : **https://discordapp.com/oauth2/authorize?client_id=597081662517411859&permissions=8&scope=bot**")
     }
     if (msg.content === prefix + "partenaires"){
-        msg.reply("voici les partenaires d'**__Element Hall__** : **Factrio** : https://discord.gg/GhPm74m")
+        msg.reply("voici les partenaires d'**__Element Hall__** :")
+        msg.channel.send("**Factrio** : https://discord.gg/GhPm74m")
+        msg.channel.send("**Des Gens** : https://discord.gg/")
+        msg.channel.send("**ailedeuxplume Communauté** : https://discord.gg/")
+        msg.channel.send("**Math2032 Officiel** : https://discord.gg/")
     }
 });
 
