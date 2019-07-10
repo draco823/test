@@ -31,9 +31,9 @@ bot.on('message', msg => {
     if (msg.content === prefix + "partenaires"){
         msg.reply("voici les partenaires d'**__Element Hall__** :")
         msg.channel.send("**Factrio** : https://discord.gg/GhPm74m")
-        msg.channel.send("**Des Gens** : https://discord.gg/")
-        msg.channel.send("**ailedeuxplume Communauté** : https://discord.gg/")
-        msg.channel.send("**Math2032 Officiel** : https://discord.gg/")
+        msg.channel.send("**Des Gens** : https://discord.gg/Ahu6Jrm")
+        msg.channel.send("**ailedeuxplume Communauté** : https://discord.gg/xr9BWpR")
+        msg.channel.send("**Math2032 Officiel** : https://discord.gg/AR89kdE")
     }
 });
 
