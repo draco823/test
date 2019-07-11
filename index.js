@@ -14,7 +14,7 @@ bot.on('message', msg => {
         msg.channel.send("Voici l'adresse IP du serveur Minecraft d'Element Hall : **elementhall.craft.gg**")
     }
     if (msg.content === prefix + "help"){
-        msg.reply("voici ce que je peux faire:")
+        msg.reply("voici ce que je peux faire (sa met un peut de temps à arriver :wink:) :")
         msg.channel.send("~")
         msg.channel.send("**/help** : voir cette liste")
         msg.channel.send("~")
